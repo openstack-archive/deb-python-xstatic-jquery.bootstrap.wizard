@@ -1,0 +1,20 @@
+Description: Debianize
+ Use files from libjs-twitter-bootstrap-wizard
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: not-needed
+Last-Update: 2014-09-15
+
+--- python-xstatic-jquery.bootstrap.wizard-1.0.0.1.orig/xstatic/pkg/jquery_bootstrap_wizard/__init__.py
++++ python-xstatic-jquery.bootstrap.wizard-1.0.0.1/xstatic/pkg/jquery_bootstrap_wizard/__init__.py
+@@ -34,9 +34,9 @@ HOMEPAGE = 'http://github.com/VinceG/twi
+ LICENSE = '(same as %s)' % DISPLAY_NAME
+ 
+ from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/jquery_bootstrap_wizard'
++BASE_DIR = '/usr/share/javascript/jquery-bootstrap-wizard'
+ 
+ LOCATIONS = {
+     # CDN locations (if no public CDN exists, use an empty dict)
