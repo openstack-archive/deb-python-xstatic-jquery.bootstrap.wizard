@@ -1,0 +1,9 @@
+Code-Review+2: Julie Pichon <jpichon@redhat.com>
+Code-Review+2: Akihiro Motoki <amotoki@gmail.com>
+Workflow+1: Akihiro Motoki <amotoki@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 14 Oct 2014 05:41:20 +0000
+Reviewed-on: https://review.openstack.org/113284
+Project: openstack/deb-python-xstatic-jquery.bootstrap.wizard
+Branch: refs/heads/master
